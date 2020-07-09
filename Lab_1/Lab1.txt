@@ -1,18 +1,18 @@
 public class Lab1Ex1 {
 	public static void main(String[] args) {
-		// Remove the semicolon; This will throw a syntax error for the statement
-		System.out.println("Hello World")
+		//Remove the last brace in the program: This will throw a syntax error for the method	
+		System.out.println("Hello World");
 	}
-}
+
 
 Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
-	Syntax error, insert ";" to complete BlockStatements
+	Syntax error, insert "}" to complete ClassBody
 
-	at Lab1Ex1.main(Lab1Ex1.java:4)
+	at Lab1Ex1.main(Lab1Ex1.java:5)
 
 public class Lab1Ex1 {
 	public static void main(String[] args) {
-		// Replace the semicolon: This will print Hello World;
+		// Replace the last brace in the program: This will print Hello World;
 		System.out.println("Hello World");
 	}
 }
