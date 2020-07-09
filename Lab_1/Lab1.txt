@@ -1,0 +1,9 @@
+public class Lab1Ex1 {
+	public static void main(String[] args) {
+		// a) Change Lab1Ex1 to Hello: This will print Hello
+		System.out.println("Hello");
+	}
+}
+
+
+Hello 
