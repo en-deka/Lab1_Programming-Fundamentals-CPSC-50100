@@ -1,9 +1,24 @@
 public class Lab1Ex1 {
 	public static void main(String[] args) {
-		// a) Change Lab1Ex1 to Hello: This will print Hello
-		System.out.println("Hello");
+		// Remove the first quotation mark in the String; This will throw a syntax error for the string
+		System.out.println(Hello World");
 	}
 }
 
+Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token(s), misplaced construct(s)
+	Hello cannot be resolved to a type
+	Syntax error, insert ";" to complete BlockStatements
+	String literal is not properly closed by a double-quote
+	String literal is not properly closed by a double-quote
 
-Hello 
+	at Lab1Ex1.main(Lab1Ex1.java:4)
+
+public class Lab1Ex1 {
+	public static void main(String[] args) {
+		// Replace the first quotation mark in the String; This will print Hello World
+		System.out.println("Hello World");
+	}
+}
+
+Hello World
