@@ -1,0 +1,22 @@
+import java.util.Scanner;
+//import java.util.Math;
+ 
+
+// This program will take your name as input and guess your age.
+public class AgeGuess {
+
+	public static void main(String[] args) {
+	
+		String name = "";
+		int ageGuess = 29;
+		 
+		Scanner scan = new Scanner(System.in);
+		System.out.print("What is your name?   ");
+		name = scan.next();
+		System.out.println("Hello " + name + ". I will now guess your age...");
+		System.out.println("You are " + ageGuess + " years old.");
+	}
+
+}
+
+
