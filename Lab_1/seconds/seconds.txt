@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+
+public class TimeComp {
+
+	public static void main(String[] args) {
+		
+		// Takes in a number of seconds and prints the time in hours, minutes, and seconds.
+		
+		
+		System.out.println("Please enter the number of seconds to be converted.");
+		Scanner scan = new Scanner(System.in);
+		int seconds = scan.nextInt();
+		int hour = seconds / 3600;
+		int minute = hour / 360;
+		int second = seconds % 60; 
+		System.out.println(seconds + " seconds is " + hour + " hours, " + minute + " minutes,  and " + second + " seconds.");
+		
+
+	}
+
+}
+
